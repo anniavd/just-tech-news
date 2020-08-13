@@ -6,7 +6,7 @@ const { Comment } = require('../../models');
 
 router.get('/', (req, res) => {
  Comment.findAll({})
- .then(dbCommentData => res.json(dbCommentData))
+ .then(dbGetData => res.json(dbGetData))
         .catch(err => {
           console.log(err);
           res.status(400).json(err);
@@ -38,12 +38,12 @@ router.delete('/:id', (req, res) => {
           id: req.params.id
         }
       })
-        .then(dbPostData => {
-          if (!dbPostData) {
+        .then(dbDeleteData => {
+          if (!dbDeleteData) {
             res.status(404).json({ message: 'No post found with this id' });
             return;
           }
-          res.json(dbPostData);
+          res.json(dbDeleteData);
         })
         .catch(err => {
           console.log(err);
