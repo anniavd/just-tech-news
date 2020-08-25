@@ -1,15 +1,12 @@
 #  JUST TECH NEWS 
 
 
-Just tech news is a back-end application for publications. The user will be authenticated and will be able to publish, vote for other publications and comment on publications.The application is implemented using Heroku.
+Just tech news is a back-end application for publications. The user will be authenticated and will be able to publish, vote for other publications and comment on publications.The application is deployed in Heroku.
 
 In order to view the information, access each of the following links.
 
-[Users](https://just-tech.herokuapp.com/api/users)
+[link to the app](https://just-tech.herokuapp.com/)
 
-[Posts](https://just-tech.herokuapp.com/api/posts)
-
-[Comments](https://just-tech.herokuapp.com/api/comments)
 
 
 # Technologies 
@@ -19,6 +16,11 @@ In order to view the information, access each of the following links.
 - Sequelize
 - Express
 - Bcrypt
+- Dotenv
+- Express-handlebars
+- Express-session
+- Connect-session-sequelize
+
 
 # Questions
 
