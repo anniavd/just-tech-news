@@ -10,7 +10,7 @@ In order to view the information, access each of the following links.
  ![home page](/public/images/home-page.jpg)
 
 
-[Just Tech News](https://just-tech.herokuapp.com/)
+### Visit the site! [Just Tech News](https://just-tech.herokuapp.com/)
 
 # Table of Contents
 
