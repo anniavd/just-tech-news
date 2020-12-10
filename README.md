@@ -30,7 +30,7 @@ In order to view the information, access each of the following links.
 - Run the line command `npm install` for dependencies to be installed.
 - Create the file env.  with the data of your mysql database `user: '', password:'' `and then type in the terminal the line command `mysql -u root -p` and connect to your database by typing the password.
 - Run the line command `npm start` from the file `server.js`.
-- Open  the browers and write on the adress bar `http://localhost:3001/` for see the site.
+- Open  the browser and write on the adress bar `http://localhost:3001/` for see the site.
 
 
 # Usage
