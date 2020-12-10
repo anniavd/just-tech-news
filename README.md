@@ -45,8 +45,8 @@ The user has the option to login, as well as signup by clicking on the `login` b
  ![create a post](/public/images/create-post.jpg)
 
 
-- Once the user creates a post, he can `Edit` it by clicking on the link `Edit Post` and once the post is edited, click on the `Save` button to save the changes.
-> - Delete it by clicking the `Delete` button.
+- Once the user creates a post, he can `Edit` it by clicking on the link `Edit Post` and once the post is edited, click on the `Save post` button to save the changes.
+> - Delete it by clicking the `Delete post` button.
 
  ![edit a post](/public/images/edit-post.jpg)
 
